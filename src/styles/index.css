@@ -1,0 +1,19 @@
+@font-face {
+    font-family: kumbh;
+    src: url(/KumbhSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: kumbhBold;
+    src: url(/KumbhSans-Bold.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}

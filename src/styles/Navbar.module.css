@@ -1,0 +1,74 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px 10px 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+.logo img{
+    width: 70px;
+}
+
+
+.companyName{
+    font-size: 26px;
+    font-family: kumbhBold;
+    color: rgba(244, 130,0, 1);
+}
+
+.companyTagline{
+    font-family: kumbh;
+    color: rgb(47, 40, 133);
+    font-size: 14px;
+    text-align: right;
+}
+
+.companyName span{
+    color: rgba(14, 17, 98, 1);
+}
+
+.links{
+    width: 15%;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links ul a{
+    font-size: 16px;
+    color: rgba(14, 17, 98, 1);
+    font-family: kumbhBold;
+    transition-duration: 0.3s;
+}
+
+.links ul a:hover{
+    color: rgba(14, 17, 98, 0.6);
+}
+
+
+.categories{
+    width: 25%;
+}
+
+.categories ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categories ul a{
+    font-size: 14px;
+    color: rgb(140, 140, 141);
+    font-family: kumbhBold;
+    transition-duration: 0.3s;
+}
