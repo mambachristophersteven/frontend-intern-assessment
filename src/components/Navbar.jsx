@@ -59,7 +59,7 @@ export default function Navbar() {
             <img src="/logo.png" alt="logo" />
             <div className={styles.nameAndTagline}>
                 <p className={styles.companyName}>Somma<span>Store</span></p>
-                <p className={styles.companyTagline}>This is some store!</p>
+                <p className={styles.companyTagline}>This is some store oh!</p>
             </div>
         </div>
         <div className={styles.categories}>
