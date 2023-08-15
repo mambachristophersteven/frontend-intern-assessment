@@ -7,7 +7,13 @@ export default function Success() {
   return (
     <div className={styles.container}>
         <Navbar/>
-        <div className={styles.message}></div>
+        <div className={styles.message}>
+            <img src="/check.svg" alt="checkmark" />
+            <p className={styles.success}>Thanks for shopping with us</p>
+            <button className={styles.viewButton}>
+              <a href="/">Continue Shopping</a>
+            </button>
+        </div>
         <Footer/>
     </div>
   )
