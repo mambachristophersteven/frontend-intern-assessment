@@ -1,0 +1,154 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+    gap: 20px;
+}
+
+.cartList{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: kumbhBold;
+    color: rgb(47, 40, 133);
+}
+
+.product{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+
+.left img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right p{
+    font-family: kumbhBold;
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+}
+
+.brand span{
+    color: black;
+    font-size: 20px;
+}
+
+.name span{
+    color: black;
+    font-size: 24px;
+}
+
+.category span{
+    color: black;
+    font-size: 18px;
+}
+
+.price span{
+    color: black;
+    font-size: 24px;
+}
+
+.bill{
+    width: 100%;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.top p{
+    font-family: kumbhBold;
+    font-size: 18px;
+    color: rgb(117, 117, 117);
+}
+
+.discount span{
+    font-size: 22px;
+    color: black;
+}
+
+.tax span{
+    font-size: 22px;
+    color: black;
+}
+
+.total span{
+    font-size: 28px;
+    color: black;
+}
+
+.bottom{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.viewButton{
+    background: rgb(47, 40, 133);
+    color: white;
+    font-size: 16px;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    font-family: kumbhBold;
+    transition-duration: 0.3s;
+}
+
+.viewButton a{
+    color: white;
+}
+.viewButton:hover{
+    background: rgba(14, 17, 98, 0.6);
+}
+
+.billHeading{
+    font-family: kumbhBold;
+    font-size: 20px;
+    color: rgb(47, 40, 133);
+}
