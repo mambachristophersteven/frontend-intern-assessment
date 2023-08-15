@@ -4,6 +4,7 @@
     width: 100vw;
     align-items: center;
     flex-direction: column;
+    gap: 20px;
     
 }
 
@@ -13,4 +14,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: kumbhBold;
+    color: rgb(47, 40, 133);
 }

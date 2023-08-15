@@ -14,6 +14,16 @@
 }
 .logo img{
     width: 70px;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -52,7 +62,7 @@
 }
 
 .links ul a:hover{
-    color: rgba(14, 17, 98, 0.6);
+    color: rgba(14, 17, 98, 0.8);
 }
 
 
@@ -71,4 +81,17 @@
     color: rgb(140, 140, 141);
     font-family: kumbhBold;
     transition-duration: 0.3s;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icons img:first-child{
+    width: 20px;
+}
+
+.icons img{
+    cursor: pointer;
 }

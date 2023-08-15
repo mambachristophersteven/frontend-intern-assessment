@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
+import styles from '../styles/ProductDetails.module.css'
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function ProductDetails() {
   const [product, setProduct] = useState(null)
@@ -18,6 +21,11 @@ export default function ProductDetails() {
     return <div>Loading...</div>;
   }
   return (
-    <div>{product.title}</div>
+    <div className={styles.container}>
+      <Navbar/>
+      <Footer/>
+    </div>
   )
 }
+
+//{product.title}

@@ -58,8 +58,8 @@ export default function Navbar() {
         <div className={styles.logo}>
             <img src="/logo.png" alt="logo" />
             <div className={styles.nameAndTagline}>
-                <p className={styles.companyName}>Somma<span>Store</span></p>
-                <p className={styles.companyTagline}>This is some store oh!</p>
+                <p className={styles.companyName}>Somma<span>Store.</span></p>
+                <p className={styles.companyTagline}>This be some store oh!</p>
             </div>
         </div>
         <div className={styles.categories}>
@@ -76,6 +76,10 @@ export default function Navbar() {
                     <a href={Link.url} key={Link.id} className={styles.link}>{Link.title}</a>
                 ))}
             </ul>
+        </div>
+        <div className={styles.icons}>
+            <img src="/love.svg" alt="love" />
+            <img src="/cart.svg" alt="cart" />
         </div>
     </div>
   )

@@ -21,6 +21,7 @@ export default function Products() {
   return (
     <div className={styles.container}>
       <Navbar/>
+      <h1 className={styles.heading}>All Our Products</h1>
       <div className={styles.allProducts}>
         {
           products.map((product)=><Product key={product.id} data={product}/>)

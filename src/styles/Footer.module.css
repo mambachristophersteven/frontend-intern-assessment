@@ -1,0 +1,111 @@
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+    justify-content: space-between;
+    background: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.nameAndTagline{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-family: kumbhBold;
+    font-size: 30px;
+    color: rgba(244, 130,0, 1);
+}
+
+.name span{
+    color: rgb(47, 40, 133);
+}
+
+.tagline{
+    font-family: kumbh;
+    font-size: 16px;
+    color: rgb(47, 40, 133);
+    text-align: right;
+}
+
+.socials{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.emailTelephone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.email{
+    font-family: kumbhBold;
+    font-size: 16px;
+    color: rgb(63, 62, 62);
+}
+
+.telephone{
+    font-family: kumbhBold;
+    font-size: 14px;
+    color: rgb(68, 68, 68);
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.link{
+    font-family: kumbhBold;
+    font-size: 16px;
+    color: rgb(47, 40, 133);
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+.link:hover{
+    color:rgba(14, 17, 98, 0.6);
+}
+
+.right{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.smallTalk{
+    font-family: kumbh;
+    width: 60%;
+    font-size: 16px;
+    color: black;
+}
+
+.right img{
+    animation: rotate 3s linear infinite;
+}
+
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
