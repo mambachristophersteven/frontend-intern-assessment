@@ -44,14 +44,15 @@
     color: rgba(14, 17, 98, 1);
 }
 
-.links{
+/* .links{
     width: 15%;
-}
+} */
 
 .links ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .links ul a{
@@ -59,6 +60,7 @@
     color: rgba(14, 17, 98, 1);
     font-family: kumbhBold;
     transition-duration: 0.3s;
+    gap: 5px;
 }
 
 .links ul a:hover{
@@ -66,12 +68,13 @@
 }
 
 
-.categories{
-    width: 25%;
-}
+/* .categories{
+    
+} */
 
 .categories ul{
     display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -94,4 +97,28 @@
 
 .icons img{
     cursor: pointer;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        padding: 10px 20px 10px 20px;
+    }
+    .categories ul{
+        gap: 5px;
+    }
+    .links ul{
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        padding: 10px 20px 10px 20px;
+    }
+    .categories{
+        display: none;
+    }
+    .links ul{
+        gap: 5px;
+    }
 }

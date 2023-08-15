@@ -48,7 +48,7 @@ export default function ProductDetails() {
         </div>
         <div className={styles.bottom}>
           <button className={styles.viewButton}>
-            <a href="/checkout">Add To Cart</a>
+            <a href="/Checkout">Add To Cart</a>
             </button>
         </div>
       </div>
